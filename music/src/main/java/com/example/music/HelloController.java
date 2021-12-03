@@ -90,7 +90,7 @@ public class HelloController implements Initializable{
             }
         });
 
-        songProgressBar.setStyle("-fx-accent: #00FF00;");
+        songProgressBar.setStyle("-fx-accent: #d74329;");
     }
 
     public void playMedia() {
