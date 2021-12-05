@@ -17,7 +17,7 @@ public class HelloApplication extends Application {
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("hello-view.fxml")));
         primaryStage.initStyle(StageStyle.UNDECORATED);
         // primaryStage.setTitle("Hello World")
-        primaryStage.setScene(new Scene(root,654,165));
+        primaryStage.setScene(new Scene(root,654,222));
         primaryStage.show();
 
     }
